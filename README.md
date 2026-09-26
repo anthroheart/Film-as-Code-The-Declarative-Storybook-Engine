@@ -1,4 +1,4 @@
-<!-- ===================================================================== -->
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d847945-888d-4fa2-8f8e-c227f26fd29a" /><!-- ===================================================================== -->
 <!--                   STORYBOOK GENOME ENGINE HEADER                      -->
 <!-- ===================================================================== -->
 
@@ -110,6 +110,9 @@ Traditional animation workflows require non-linear editors (Premiere, Resolve, A
 > **This project was deliberately built so that lack of API access does not prevent someone from making a film.**
 
 ---
+
+# PROJECT FILES: https://drive.google.com/drive/folders/1ukc1-3U8VEXuzgSHA-ju4aR1meOpoeth?usp=drive_link
+
 
 # Flicker, the Baby Rainbow Dragon: A Forest Moon Folklore Tale
 
