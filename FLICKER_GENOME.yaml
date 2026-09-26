@@ -1,0 +1,623 @@
+# ==============================================================================
+# STORYBOOK GENOME SPECIFICATION
+# Project: Flicker, the Baby Rainbow Dragon (A Forest Moon Folklore Tale)
+# Framework: AnthroHeart Ecosystem Storybook Engine
+# License: CC BY 4.0
+# Owner: Anthro Entertainment LLC
+# Author: Thomas B. Sweet (Saguna Anthroness / becoming Divine Anthro)
+# ==============================================================================
+
+meta:
+  framework_name: "Storybook GENOME"
+  title: "Flicker, the Baby Rainbow Dragon"
+  subtitle: "A Forest Moon Folklore Tale"
+  version: "1.0.0"
+  license: "CC BY 4.0"
+  owner: "Anthro Entertainment LLC"
+  author: "Thomas B. Sweet"
+  provenance:
+    source: "AnthroHeart Ecosystem teaching template series"
+    blockchain_anchor: "Bitcoin Block 968289"
+
+# ----------------------------- ENGINE & API -----------------------------
+engine:
+  api_url: "https://openrouter.ai/api/v1/images"
+  model: "black-forest-labs/flux.2-pro"
+  output_format: "png"
+  timeout_seconds: 120
+  max_retries: 4
+  retry_backoff_seconds: 3
+  manifest_log: "manifest_results.json"
+  keyframe_log: "keyframe_results.json"
+
+# ----------------------------- HOUSE STYLE -----------------------------
+styling:
+  aspect_ratio_wide: "16:9"
+  aspect_ratio_tall: "3:4"
+  global_guidance: >-
+    Soft painterly picture-book illustration, gentle watercolor and gouache
+    texture, warm and cozy lighting, rounded friendly shapes, gentle pastel
+    colors, whimsical and wholesome mood, hand-painted storybook art style,
+    soft rosy cheeks, expressive rounded children's-book character design.
+  anthro_clause: >-
+    The character is a fully bipedal anthropomorphic animal, standing upright
+    on two legs with human-like posture and proportions, humanoid hands able
+    to hold objects, walking on two feet, never quadruped.
+
+# ----------------------------- MASTER ASSETS -----------------------------
+master_assets:
+  environment:
+    id: "environment"
+    file: "00_Forest_Moon_Clearing.png"
+    aspect_ratio: "16:9"
+    is_anthro: false
+    prompt: >-
+      A peaceful forest clearing at twilight on a small moss-covered moon,
+      surrounded by tall ancient trees with gently glowing leaves and drifting
+      fireflies. A soft violet moon glows low in a lavender-and-rose sky above
+      the treeline. In the foreground, two small round anthro forest creatures
+      sit together on a stone path sharing warm cups of tea, cozy and unhurried.
+      To the right, nestled among tree roots, a small crooked teahouse with a
+      round window and a wooden counter visible through an open doorway, warm
+      lantern light spilling out. Along the left edge, a weathered wooden fence
+      post stands alone near the treeline with open uncluttered space around it.
+
+  characters:
+    - id: "flicker"
+      file: "characters/01_Flicker.png"
+      aspect_ratio: "3:4"
+      is_anthro: false
+      prompt: >-
+        A tiny round fledgling dragon creature, knee-high, standing on four
+        short stubby legs, with small wings, big luminous gentle eyes, and
+        soft translucent scales that shimmer in faint pastel rainbow colors.
+        Small blunt snout, tiny nubby horns, curled tail. Sitting at the edge
+        of a mossy clearing with a hopeful, slightly wondering expression.
+
+    - id: "elder_fen"
+      file: "characters/02_ElderFen.png"
+      aspect_ratio: "3:4"
+      is_anthro: true
+      prompt: >-
+        A gentle elderly anthropomorphic deer character, standing upright on
+        two legs, with broad antlers covered in soft green moss and tiny white
+        flowers growing between the branches. Warm tan and cream fur, soft rosy
+        cheeks, kindly rounded face with warm brown eyes. Wearing a woven
+        bark-colored shawl wrapped around shoulders. Holding a smooth wooden
+        walking staff in one humanoid hand. Calm, patient, kindly expression.
+        Standing in a quiet mossy grove lit by soft violet moonlight.
+
+    - id: "pip"
+      file: "characters/03_Pip.png"
+      aspect_ratio: "3:4"
+      is_anthro: true
+      prompt: >-
+        A small energetic anthropomorphic rabbit character, standing upright
+        on two legs, with big floppy ears and a cheerful excited grin, soft
+        rosy cheeks, wearing a patchwork vest full of little trinkets and tools.
+        Caught in a bouncy moment of playful motion, full of wholesome comic energy.
+
+    - id: "ash"
+      file: "characters/04_Ash.png"
+      aspect_ratio: "3:4"
+      is_anthro: true
+      prompt: >-
+        A large old anthropomorphic dragon-elder character, standing upright on
+        two legs, thick and heavyset, with dull soot-grey scales and a grumpy
+        downturned expression. Leaning on a cracked stone perch with arms crossed
+        and a skeptical squint, but with a hint of quiet tenderness in the eyes.
+        Lovable grumpy grandpa energy, not menacing.
+
+    - id: "nell"
+      file: "characters/05_Nell.png"
+      aspect_ratio: "3:4"
+      is_anthro: true
+      prompt: >-
+        A cheerful plump anthropomorphic badger character, standing upright on
+        two legs behind a small round-windowed teahouse counter, wearing a
+        flour-dusted apron, soft rosy cheeks, holding a dented copper kettle in
+        one hand. Cozy storybook teahouse setting with warm lantern glow.
+
+    - id: "sparrow"
+      file: "characters/06_Sparrow.png"
+      aspect_ratio: "3:4"
+      is_anthro: false
+      prompt: >-
+        A small plain brown sparrow perched quietly on a weathered wooden fence
+        post at the edge of a forest clearing, head tilted with an unusually
+        knowing, tranquil expression. Soft muted natural watercolor palette.
+
+    - id: "moonkeeper"
+      file: "characters/07_Moonkeeper.png"
+      aspect_ratio: "3:4"
+      is_anthro: true
+      prompt: >-
+        A tall gentle anthropomorphic guardian figure standing upright on two
+        legs, with soft rainbow-tufted fur in blues, purples, greens, and golds,
+        standing at the edge of a moonlit forest clearing at dawn, seen from
+        behind in soft peaceful silhouette, radiating a calm, protective warmth.
+
+# ----------------------------- KEYFRAMES (16 CLIPS) -----------------------------
+keyframes:
+  folder: "keyframes"
+  aspect_ratio: "16:9"
+  clips:
+    - id: "01a"
+      references: ["flicker"]
+      start_prompt: >-
+        Flicker the young fledgling rainbow dragon waking at dawn in a soft mossy
+        nest, stretching small wings, scales a sleepy dim grey-blue.
+      end_prompt: >-
+        Flicker sitting up in the mossy nest, blinking at the morning sun, tail
+        flopping over, scales dim pastel grey.
+
+    - id: "01b"
+      references: ["flicker", "environment"]
+      start_prompt: >-
+        A cozy village clearing at dawn, forest creatures starting their morning
+        under gentle golden light.
+      end_prompt: >-
+        Two playful fledgling dragons nearby glowing with soft magical sparkles,
+        while Flicker watches wistfully from a short distance.
+
+    - id: "02a"
+      references: ["elder_fen", "environment"]
+      start_prompt: >-
+        Elder Fen, the gentle bipedal deer elder standing upright on two legs,
+        walking peacefully through morning mist with his wooden staff.
+      end_prompt: >-
+        Forest creatures pausing respectfully as Elder Fen passes, soft mist
+        swirling around his moss-covered antlers.
+
+    - id: "03a"
+      references: ["pip", "flicker"]
+      start_prompt: >-
+        Pip the bipedal rabbit standing upright on two legs, spinning two dry
+        twigs together playfully before Flicker the little dragon.
+      end_prompt: >-
+        A tiny comical wisp of grey dust drifts up, Pip's ears drooping in
+        humorous disappointment while Flicker tilts his head.
+
+    - id: "03b"
+      references: ["pip", "flicker"]
+      start_prompt: >-
+        Pip the bipedal rabbit offering Flicker a bright red woodland berry with
+        one hand, Flicker taking a curious nibble.
+      end_prompt: >-
+        Flicker sneezing in a big comical burst of air, ruffling Pip's floppy
+        ears, both surprised and giggling together.
+
+    - id: "03c"
+      references: ["pip", "flicker", "environment"]
+      start_prompt: >-
+        Pip the bipedal rabbit and Flicker the fledgling dragon racing
+        cheerfully down a soft grassy hillside side by side.
+      end_prompt: >-
+        Pip and Flicker resting happily in a bright patch of meadow flowers,
+        giggling as colorful flower petals float around them.
+
+    - id: "04a"
+      references: ["ash", "flicker"]
+      start_prompt: >-
+        Ash the large bipedal dragon-elder standing upright on two legs,
+        watching from a stone ledge with arms crossed and a skeptical squint.
+      end_prompt: >-
+        Ash shaking his head gently with old quiet sorrow, watching Flicker try
+        to muster magical energy nearby.
+
+    - id: "05a"
+      references: ["elder_fen", "flicker"]
+      start_prompt: >-
+        Elder Fen sitting gently beside Flicker at the edge of a quiet pond,
+        violet twilight sky reflecting across the still water.
+      end_prompt: >-
+        Elder Fen speaking softly with comforting patience, his mossy antlers
+        catching gentle lavender moonlight.
+
+    - id: "05b"
+      references: ["elder_fen", "flicker"]
+      start_prompt: >-
+        Flicker resting his small head against Elder Fen's side at the quiet pond,
+        scales shifting to a calmer, softer shade.
+      end_prompt: >-
+        Flicker's scales glowing in serene, restful pastel blues, his eyes
+        gently closed in tranquil ease.
+
+    - id: "06a"
+      references: ["sparrow"]
+      start_prompt: >-
+        A small plain brown sparrow perched on a rustic wooden fence post at the
+        forest edge, head tilted in deep knowing calm.
+      end_prompt: >-
+        The small brown sparrow taking flight into the peaceful violet evening
+        sky, leaving the weathered post empty.
+
+    - id: "07a"
+      references: ["flicker", "environment"]
+      start_prompt: >-
+        Flicker chasing a drifting golden light-mote through tall twilight
+        grass, carefree and full of playful laughter.
+      end_prompt: >-
+        Flicker resting on his back in the tall soft grass mid-laugh, completely
+        relaxed, paws open and relaxed toward the stars.
+
+    - id: "07b"
+      references: ["flicker"]
+      start_prompt: >-
+        Flicker sitting up mid-giggle, caught by surprise, his open paws held
+        out gently in front of him.
+      end_prompt: >-
+        A small magical orb of floating violet, blue, and gold starlight-fire
+        hovers gently in the air just above Flicker's open paws. His scales bloom
+        into radiant pastel rainbow hues in wide-eyed wonder.
+
+    - id: "07c"
+      references: ["flicker", "environment"]
+      start_prompt: >-
+        Wide shot of the twilight forest clearing as the small multicolored
+        hovering magical flame casts a warm starlight glow.
+      end_prompt: >-
+        Forest creatures gathering peacefully around the clearing in quiet
+        reverence and gentle wonder, bathed in soft warm light.
+
+    - id: "08a"
+      references: ["ash", "flicker"]
+      start_prompt: >-
+        Ash the gruff bipedal dragon-elder stepping forward slowly, arms
+        lowering, his tough exterior beginning to melt.
+      end_prompt: >-
+        Ash's expression softening into a tender, rare smile as he offers
+        Flicker a polished round river stone with an open hand.
+
+    - id: "09a"
+      references: ["flicker", "pip", "nell", "environment"]
+      start_prompt: >-
+        The forest friends gathered around Flicker, his hovering rainbow flame
+        lighting up their smiling faces in cozy harmony.
+      end_prompt: >-
+        Pip bouncing cheerfully while Nell the badger arrives carrying a tray of
+        warm steaming cups, celebrating in quiet cozy joy.
+
+    - id: "09b"
+      references: ["flicker", "moonkeeper", "environment"]
+      start_prompt: >-
+        Flicker the little dragon sitting peacefully in the twilight clearing
+        at night with paws open, as a small magical orb of floating violet and
+        gold starlight-fire hovers gently in the air just above his paws, casting
+        a warm steady lantern glow across the mossy grass.
+      end_prompt: >-
+        The tall Moonkeeper glimpsed in serene silhouette at the edge of the
+        ancient treeline under the violet moon, peaceful and watchful.
+
+# ----------------------------- VOICE CASTING -----------------------------
+voice_casting:
+  provider: "elevenlabs"
+  roles:
+    elder_fen_narrator:
+      character: "Elder Fen & Main Storybook Narrator"
+      elevenlabs_voice: "George"
+      tone: "Warm, calm, grandfatherly, bedtime storybook pacing"
+      suno_tag: "[Spoken, warm patient elderly voice, gentle narrator]"
+
+    ash_elder:
+      character: "Ash (Dragon-Kin Elder)"
+      elevenlabs_voice: "Callum"
+      tone: "Deep, gravelly, weary, gruff but gentle"
+      suno_tag: "[Spoken, deep gravelly voice, world-weary tone]"
+
+    sparrow_cryptic:
+      character: "The Sparrow"
+      elevenlabs_voice: "Alice"
+      tone: "Whispery, quiet, airy, cryptic"
+      suno_tag: "[Spoken, quiet whisper, mysterious calm]"
+
+# ----------------------------- SOUNDTRACK & LYRICS -----------------------------
+soundtrack:
+  audio_folder: "audio"
+  clips_folder: "clips"
+  output_video: "Flicker_The_Baby_Rainbow_Dragon_Final.mp4"
+
+  songs:
+    # --------------------------------------------------------------------------
+    # SONG 1: LITTLE FLICKER (Dawn in the Village)
+    # --------------------------------------------------------------------------
+    - id: "01"
+      title: "Little Flicker"
+      file: "01_LittleFlicker.wav"
+      clips: ["01a.mp4", "01b.mp4"]
+      morph_title: true
+      type: "sung"
+      suno_style: "Gentle whimsical folk-pop, acoustic guitar, soft glockenspiel, warm children's-storybook morning feel, tender lead vocal, lightly orchestral"
+      lyrics: |
+        [Verse 1]
+        Dawn unfolds upon the mossy ground,
+        Leaves of amber drift without a sound.
+        Other fledglings wake and start to glow,
+        Little sparks of crimson, gold, and snow.
+
+        [Chorus]
+        Oh, Little Flicker, waking in the dew,
+        Your quiet scales are resting in the grey and blue.
+        No spark has caught, no ember starts to hum,
+        Waiting for the day your secret light will come.
+
+        [Verse 2]
+        Tumble from the nest on stubby wings,
+        Listen to the quiet morning things.
+        Cheeks are soft and luminous with care,
+        Watching colored fireflies dance on the air.
+
+        [Chorus]
+        Oh, Little Flicker, waking in the dew,
+        Your quiet scales are resting in the grey and blue.
+        No need to hurry, little dragon friend,
+        Every hidden story finds its gentle end.
+
+        [Outro]
+        Rest your sleepy wings...
+        Wait for what the morning brings...
+
+    # --------------------------------------------------------------------------
+    # SONG 2: THE HUSH OF FOREST MOON (Elder Fen's Monologue)
+    # --------------------------------------------------------------------------
+    - id: "02"
+      title: "The Hush of Forest Moon"
+      file: "02_TheHushOfForestMoon.wav"
+      clips: ["02a.mp4"]
+      morph_title: false
+      type: "spoken"
+      voice_role: "elder_fen_narrator"
+      suno_style: "Slow spacious ambient underscore, soft strings, wind chimes, gentle flute, narrator pacing, no percussion"
+      spoken_script: |
+        (Spoken in a warm, patient, elderly voice over soft strings:)
+        "Welcome, traveler, to the Forest Moon.
+        Here, beneath the violet twilight, nothing is hurried.
+        The ancient moss takes centuries to carpet the stone.
+        The lanterns in the teahouse take their time to warm.
+        And every young dragon finds their first flame not by striving,
+        but by listening.
+        We call this the Hush.
+        If you are searching for your light today...
+        remember that the moon does not shout.
+        It simply waits for the dark."
+
+    # --------------------------------------------------------------------------
+    # SONG 3: TRY, TRY, TRY! (Pip's Absurd Help)
+    # --------------------------------------------------------------------------
+    - id: "03"
+      title: "Try, Try, Try!"
+      file: "03_TryTryTry.wav"
+      clips: ["03a.mp4", "03b.mp4", "03c.mp4"]
+      morph_title: false
+      type: "sung"
+      suno_style: "Bouncy comic folk-pop, playful pizzicato strings, cheerful kazoo, silly, energetic, wholesome acoustic"
+      lyrics: |
+        [Verse 1]
+        Pip the rabbit bounces to the front!
+        "Flicker, I have solved your little hunt!
+        Spin two twigs together in the moss,
+        Friction makes a spark without a loss!"
+
+        [Pre-Chorus]
+        Spinning, spinning, faster than before,
+        A puff of grey dust settles on the floor!
+        Pip's big ears drop down in sheer defeat,
+        Flicker blinks and yawns upon his feet!
+
+        [Chorus]
+        Try, try, try, and wiggle on your toes!
+        Eat a spicy berry that will tickle in your nose!
+        Run down the meadow hill as fast as you can fly!
+        Oh, it’s bound to happen if you really, really try!
+
+        [Verse 2]
+        Flicker takes a nibble of the red,
+        A giant achoo echoes overhead!
+        Pip is blown right backward in the flowers,
+        Giggling in the clover patch for hours!
+
+        [Chorus]
+        Try, try, try, and wiggle on your toes!
+        Eat a spicy berry that will tickle in your nose!
+        Tumble in the petals, rolling all around,
+        Laughter is the only spark we've found!
+
+    # --------------------------------------------------------------------------
+    # SONG 4: WHAT ASH SAYS (The Low Point)
+    # --------------------------------------------------------------------------
+    - id: "04"
+      title: "What Ash Says"
+      file: "04_WhatAshSays.wav"
+      clips: ["04a.mp4"]
+      morph_title: false
+      type: "spoken"
+      voice_role: "ash_elder"
+      suno_style: "Low warm cello drone, sparse solo cello, contemplative, slightly melancholic, slow tempo"
+      spoken_script: |
+        (Spoken in a gruff, weathered, deep elder voice:)
+        "Don't wear yourself out, kid.
+        Some stones in the riverbed never catch the sun.
+        I spent thirty summers grinding rocks together,
+        scowling at the stars, waiting for my scales to shine.
+        Look at me now—grey as soot, blunt as slate.
+        Not all of us are meant to burn.
+        Better to get used to the chill early...
+        than spend your whole youth reaching for a fire that isn't yours."
+
+    # --------------------------------------------------------------------------
+    # SONG 5: NOTHING TO PROVE (Elder Fen's Lullaby)
+    # --------------------------------------------------------------------------
+    - id: "05"
+      title: "Nothing to Prove"
+      file: "05_NothingToProve.wav"
+      clips: ["05a.mp4", "05b.mp4"]
+      morph_title: false
+      type: "sung"
+      suno_style: "Tender lullaby, fingerpicked guitar, soft harp, slow 3/4 waltz feel, warm intimate soothing vocal"
+      lyrics: |
+        [Verse 1]
+        Sit by the water where violet skies gleam,
+        The pond doesn't strive to reflect every beam.
+        The lily pads rest where the ripples have flown,
+        You are complete as you are on this stone.
+
+        [Chorus]
+        You have nothing to prove to the trees or the hill,
+        The moon loves the fledgling that learns to be still.
+        Let go of the straining, let go of the spark,
+        You are still golden even in the dark.
+
+        [Verse 2]
+        Rest your small chin on the soft velvet moss,
+        Let go of the worry, let go of the loss.
+        Your scales shift from grey to the calmest of blues,
+        Safe in the hush with nothing to lose.
+
+        [Chorus]
+        You have nothing to prove to the trees or the hill,
+        The moon loves the fledgling that learns to be still.
+        Breathe in the lavender, breathe out the strain,
+        Gentle as mist in the quiet moon rain.
+
+    # --------------------------------------------------------------------------
+    # SONG 6: THE SPARROW'S RIDDLE (Cryptic Q Texture)
+    # --------------------------------------------------------------------------
+    - id: "06"
+      title: "The Sparrow's Riddle"
+      file: "06_TheSparrowsRiddle.wav"
+      clips: ["06a.mp4"]
+      morph_title: false
+      type: "spoken"
+      voice_role: "sparrow_cryptic"
+      suno_style: "Mysterious music-box tones, sparse celesta, faint wind, brief and airy, magical"
+      spoken_script: |
+        (Spoken in a quiet, breezy, mysterious whisper:)
+        "The small brown sparrow tilts its head upon the fence post.
+        Its eyes carry the memory of ancient shattered stars.
+        It speaks once, softly as a falling feather:
+        'The cage was trying. The flight was stopping.'
+        And with a tilt of its wing, it dissolves into the dusk."
+
+    # --------------------------------------------------------------------------
+    # SONG 7: THE QUIET CATCH (The Ignition Climax)
+    # --------------------------------------------------------------------------
+    - id: "07"
+      title: "The Quiet Catch"
+      file: "07_TheQuietCatch.wav"
+      clips: ["07a.mp4", "07b.mp4", "07c.mp4"]
+      morph_title: true
+      type: "sung"
+      suno_style: "Swelling gentle orchestral folk, building warmly, soft choir 'ahh's, pure wonder, catharsis, warm acoustic"
+      lyrics: |
+        [Verse 1]
+        A light-mote is drifting across the tall reeds,
+        Flicker is laughing, forgetting his needs!
+        Tumbling backward and rolling in play,
+        He isn't trying to ignite the day.
+
+        [Pre-Chorus]
+        Hands in the air as he rests in the grass,
+        Watching the luminous fireflies pass...
+        A flicker... a whisper... a sudden soft gleam...
+        Gentle as waking inside of a dream...
+
+        [Chorus]
+        Look at his paws! Held open and free!
+        A hovering wisp of violet mystery!
+        Swirling in gold, in sapphire and rose,
+        Above his open paws the starlight glow grows!
+        His scales bloom in rainbow! His wide eyes take flight!
+        The moment he rested... he summoned his light!
+
+        [Outro]
+        Hovering gently...
+        Quiet and bright...
+        Flicker has caught his celestial light...
+
+    # --------------------------------------------------------------------------
+    # SONG 8: ASH'S SMALL THAW (Wordless Reassurance)
+    # --------------------------------------------------------------------------
+    - id: "08"
+      title: "Ash's Small Thaw"
+      file: "08_AshsSmallThaw.wav"
+      clips: ["08a.mp4"]
+      morph_title: false
+      type: "spoken"
+      voice_role: "elder_fen_narrator"
+      suno_style: "Warm solo piano, simple and unhurried, bittersweet resolving gently into warmth"
+      spoken_script: |
+        (Spoken warmly, narrative voice over gentle piano:)
+        "Old Ash steps down from the cracked stone ledge.
+        His arms, folded for decades, slowly drop to his sides.
+        He stands before the little glowing dragonet,
+        his weathered grey scales illuminated by the floating violet flame.
+        For the first time in memory,
+        the deep frown on Ash's snout softens.
+        Without a word, he opens a scarred palm,
+        and offers Flicker a smooth, polished river stone.
+        A token from one old stone... to a morning spark."
+
+    # --------------------------------------------------------------------------
+    # SONG 9: FLICKER'S LIGHT (Finale Reprise)
+    # --------------------------------------------------------------------------
+    - id: "09"
+      title: "Flicker's Light"
+      file: "09_FlickersLight.wav"
+      clips: ["09a.mp4", "09b.mp4"]
+      morph_title: true
+      type: "sung"
+      suno_style: "Full warm folk-pop reprise of Song 1 melody, gentle group harmonies, slowing into a bedtime lullaby outro, soft wind chimes"
+      lyrics: |
+        [Verse 1]
+        Nell brings the tea in her copper tea pot,
+        The cups are all mismatched, the root-tea is hot.
+        Pip does a dance in the lantern's soft beam,
+        The clearing is bathed in a lavender dream.
+
+        [Chorus]
+        Oh, Little Flicker, your colors are true,
+        Shining in emerald, in amber, and blue.
+        The flame hovers softly above open paws,
+        Obeying the quietest, gentlest laws.
+
+        [Verse 2]
+        At the edge of the forest, the Moonkeeper stands,
+        A silhouette watching over the lands.
+        The stars take their stations, the dusk turns to deep,
+        The Forest Moon rocks all its children to sleep.
+
+        [Outro]
+        Rest now, Little Flicker...
+        Sleep in the light...
+        Goodnight, little dragon...
+        Goodnight.
+
+# ----------------------------- TYPOGRAPHY -----------------------------
+typography:
+  fonts_folder: "fonts"
+  title_before: "Bungee-Regular.ttf"
+  title_after: "Fredoka-SemiBold.ttf"
+  title_standard: "Quicksand-Regular.ttf"
+  subtitle_sound: "Caveat-Regular.ttf"
+  subtitle_meaning: "Quicksand-Regular.ttf"
+
+# ----------------------------- SUBTITLE TRACKS -----------------------------
+subtitles:
+  output_file: "flicker_subtitles.ass"
+  dialogue:
+    - start: "0:00:04.00"
+      end: "0:00:08.50"
+      sound: "...Mrrp?"
+      meaning: "(The morning is cold and quiet.)"
+    - start: "0:00:15.20"
+      end: "0:00:19.00"
+      sound: "Hrr-whuff."
+      meaning: "(Why hasn't my spark come?)"
+    - start: "0:01:25.00"
+      end: "0:01:30.00"
+      sound: "Achoo!"
+      meaning: "(Peppery berries tickle too much!)"
+    - start: "0:08:42.00"
+      end: "0:08:48.00"
+      sound: "Ooooh..."
+      meaning: "(Warmth. A gentle, quiet light.)"

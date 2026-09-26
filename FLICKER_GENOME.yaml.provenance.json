@@ -1,0 +1,12 @@
+{
+  "target": "FLICKER_GENOME.yaml",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "sha256": "1a02789d01f7e8e128f740072d479c00542f3fa1addca2f3e5ca671d013f9f45",
+  "sha512": "f62eabadcde583925f6c2e5043f5b0bebb0a8a8a207b03ac8172addf28bc077bab496273d30258622bd48749d54e05af952f45258f3782b81f3ee9c886b3363d",
+  "provenance_note": "Single Asset Genesis Anchor, Anthro Entertainment LLC",
+  "ed25519_signature": "35a181c5a817753bc241ccbd95b8f7a385ac0e17d07eeceb62e74e3d75e60dcefaf1217ac15fa9cc053d018618334b2ce1f7405c0109d5b361f18a6335a6fb0d",
+  "signer": "Anthro Entertainment LLC",
+  "created_utc": "2026-09-24T12:39:23.736460+00:00",
+  "bitcoin_tip_at_creation": 968393,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}
