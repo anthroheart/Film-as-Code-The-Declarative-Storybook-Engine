@@ -98,5 +98,15 @@
     "note": "Single Asset Genesis Anchor",
     "timestamp": "2026-09-28T03:05:04.532657+00:00",
     "bitcoin_block": null
+  },
+  "6baeed0525d9a42e102419072af84448b62e0ad081a5f65f139ad7bf187cc319": {
+    "filename": "furry_atari_yars_revenge.py",
+    "path": "furry_atari_yars_revenge.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "6baeed0525d9a42e102419072af84448b62e0ad081a5f65f139ad7bf187cc319",
+    "note": "Single Asset Genesis Anchor",
+    "timestamp": "2026-09-28T03:22:44.800113+00:00",
+    "bitcoin_block": null
   }
 }

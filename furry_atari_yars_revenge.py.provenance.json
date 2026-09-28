@@ -1,0 +1,12 @@
+{
+  "target": "furry_atari_yars_revenge.py",
+  "signer": "Anthro Entertainment LLC",
+  "license": "MIT License (Open Source Software)",
+  "sha256": "6baeed0525d9a42e102419072af84448b62e0ad081a5f65f139ad7bf187cc319",
+  "sha512": "53b35b3bc5f1fe1e3813b157e3260c03f55a1f062f53266ad67b57f8127d0b3b1686b97e2e24357657ec4f29ec26012119939f71c4af43772ad3e22580ee64e1",
+  "provenance_note": "Single Asset Genesis Anchor",
+  "ed25519_signature": "77c00a2a6039b7ff6e0c334d67c4981c365ff46424272012ff4ee5d7f56129df9592eade41aaef68770d4f72a6d70d9425c3ab377415b9e9679145d3d5bd110e",
+  "created_utc": "2026-09-28T03:22:43.244707+00:00",
+  "bitcoin_tip_at_creation": 968925,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}
