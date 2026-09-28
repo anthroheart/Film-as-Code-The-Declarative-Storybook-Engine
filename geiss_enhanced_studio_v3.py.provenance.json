@@ -1,0 +1,12 @@
+{
+  "target": "geiss_enhanced_studio_v3.py",
+  "signer": "Anthro Entertainment LLC",
+  "license": "MIT License (Open Source Software)",
+  "sha256": "197a4838152fc3a27ed569b8ec5d419eaff57c184c6515ce2e511e2ef7d919ef",
+  "sha512": "2a7c2325ff7a1cf5f4a748134f16555372fefb2c331cdebe6a2b5d9559c590dbc312ce6e9cb9425da7f41b79b7ba51a50cdf5fb543abeef473303d56eedd796b",
+  "provenance_note": "Single Asset Genesis Anchor",
+  "ed25519_signature": "f41b6c0a15ee954af1ce319ddadbfaa7d2b494aeca8fd5cf57065a793434dd143b745d8df3f5b314900c93c43d0b5f14a1413e8adcfa53a7e3f6036a3a221802",
+  "created_utc": "2026-09-28T03:59:24.415773+00:00",
+  "bitcoin_tip_at_creation": 968930,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}
