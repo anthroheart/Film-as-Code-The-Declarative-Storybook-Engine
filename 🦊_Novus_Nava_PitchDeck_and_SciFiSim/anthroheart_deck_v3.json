@@ -1,0 +1,274 @@
+{
+  "deck_title": "AnthroHeart: A Disney Pitch Deck",
+  "version_number": 3,
+  "version_name": "Transmedia Ecosystem, Parks & Soundtracks",
+  "version_tagline": "147 Studio Masters, Disney+ Series, Theme Park Lands & Intention Tech",
+  "slides": [
+    {
+      "page_number": 1,
+      "eyebrow": "CATEGORY HEADER",
+      "title": "Welcome to the Infinite Realms",
+      "subtitle": "Unveiling a universe of love and creativity",
+      "body_paragraphs": [
+        "Dive into the enchanting world of AnthroHeart, where love forms the fabric of our multiverse. This IP offers a rich tapestry of storytelling that intertwines animated features, Disney+ series, and immersive theme park experiences."
+      ],
+      "bullet_points": [
+        "Epic narrative depth like The Lion King",
+        "Emotional resonance akin to Frozen and Moana",
+        "Innovative technology enhancing user engagement"
+      ],
+      "stat_callout": {
+        "value": "14 Trillion",
+        "label": "Dimensions"
+      },
+      "image_path": "images/AnthroHeart/thumbnail.jpg"
+    },
+    {
+      "page_number": 2,
+      "eyebrow": "CHARACTER FOCUS",
+      "title": "Meet the Heart of AnthroHeart",
+      "subtitle": "Characters that resonate with all ages",
+      "body_paragraphs": [
+        "Our core characters, like Cio (The Heartweaver) and Anthro Angel, embody the journey of love, redemption, and cosmic exploration, making them relatable and inspiring figures for audiences."
+      ],
+      "bullet_points": [
+        "Cio's transformative journey from human to anthro fox",
+        "Anthro Angel: the architect of universes and love",
+        "BlueHeart: the emotional anchor that binds them all"
+      ],
+      "stat_callout": {
+        "value": "85+",
+        "label": "Original Songs"
+      },
+      "image_path": "images/ALL_ANTHROHEART_CHARS/AnthroHeart_Characters/08_BlueHeart_as_Cio_Lover.png"
+    },
+    {
+      "page_number": 3,
+      "eyebrow": "STORY ELEMENTS",
+      "title": "A Tapestry of Dimensions",
+      "subtitle": "Exploring the infinite with love",
+      "body_paragraphs": [
+        "AnthroHeart invites audiences to explore 14 trillion dimensions where love is the guiding principle. Each story arc unfolds layers of emotional depth and cosmic adventures."
+      ],
+      "bullet_points": [
+        "Each dimension reveals new challenges and stories",
+        "The core law of love guides characters' journeys",
+        "Interconnected narratives enhance viewer engagement"
+      ],
+      "stat_callout": {
+        "value": "96/100",
+        "label": "Anthro Angel's Role"
+      },
+      "image_path": "images/ALL_ANTHROHEART_CHARS/AnthroHeart_Characters/03_AnthroHeart_Trinity.png"
+    },
+    {
+      "page_number": 4,
+      "eyebrow": "MUSIC & EMOTION",
+      "title": "Soundtracks that Resonate",
+      "subtitle": "Music as a universal language",
+      "body_paragraphs": [
+        "With over 85 original songs, our soundtracks echo the emotional journeys of the characters, enhancing storytelling and creating memorable experiences that linger with audiences."
+      ],
+      "bullet_points": [
+        "Devotional themes akin to Frozen and Moana",
+        "Musical storytelling that captivates the heart",
+        "Soundtracks as a core pillar of the franchise"
+      ],
+      "stat_callout": {
+        "value": "675",
+        "label": "Tracks Mastered"
+      },
+      "image_path": "images/Anthroness Rest Origin Album/Divine Heartbeat Extended.wav.jpg"
+    },
+    {
+      "page_number": 5,
+      "eyebrow": "THEMED EXPERIENCES",
+      "title": "Immersive Theme Park Lands",
+      "subtitle": "Bringing AnthroHeart to life",
+      "body_paragraphs": [
+        "Imagine stepping into the vibrant worlds of AnthroHeart at our theme parks. Each land is designed to immerse guests in the stories and emotions of our characters, making every visit unforgettable."
+      ],
+      "bullet_points": [
+        "Interactive attractions that invoke emotional connections",
+        "Plush anthros and Octave Mirror experiences",
+        "Unique merchandise that extends the narrative"
+      ],
+      "stat_callout": {
+        "value": "10^59",
+        "label": "Anthro Population"
+      },
+      "image_path": "images/Aumaroo/AnthroHeart1.jpg"
+    },
+    {
+      "page_number": 6,
+      "eyebrow": "TECH INNOVATION",
+      "title": "Harnessing Intention Tech",
+      "subtitle": "Mindfulness meets creativity",
+      "body_paragraphs": [
+        "Our innovative Intention Repeater app allows users to engage with the franchise on a deeper level, fostering mindfulness and emotional well-being while connecting with AnthroHeart."
+      ],
+      "bullet_points": [
+        "Open-source mindfulness tech for all ages",
+        "Engagement tools that enhance the storytelling experience",
+        "A community hub for dedicated fans"
+      ],
+      "stat_callout": {
+        "value": "3716",
+        "label": "Images Ready"
+      },
+      "image_path": "images/AnthroHeart/False_Lords_of_Karma.jpg"
+    },
+    {
+      "page_number": 7,
+      "eyebrow": "FRANCHISE EXPANSION",
+      "title": "A Multilayered Franchise",
+      "subtitle": "Diverse platforms for storytelling",
+      "body_paragraphs": [
+        "AnthroHeart's franchise pillars are carefully designed to maximize storytelling across various platforms, from feature films to merchandise, ensuring every touchpoint is engaging."
+      ],
+      "bullet_points": [
+        "Animated feature film trilogy for epic storytelling",
+        "Disney+ episodic series for deep character exploration",
+        "Consumer products that resonate with the heart"
+      ],
+      "stat_callout": {
+        "value": "1.0",
+        "label": "Genome Version"
+      },
+      "image_path": "images/PastProjects/AnthroHeart_Trinity.png"
+    },
+    {
+      "page_number": 8,
+      "eyebrow": "CROSS-MEDIA STRATEGY",
+      "title": "Synergy in Action",
+      "subtitle": "Creating a cohesive universe",
+      "body_paragraphs": [
+        "By uniting our various media\u2014from films to theme parks\u2014we create a cohesive universe that keeps audiences engaged, ensuring that every experience enriches the others."
+      ],
+      "bullet_points": [
+        "Integrated storytelling across platforms",
+        "Cross-promotion strategies that enhance visibility",
+        "Unified branding for a seamless experience"
+      ],
+      "stat_callout": {
+        "value": "2.2 Trillion",
+        "label": "Galaxies"
+      },
+      "image_path": "images/ALL_ANTHROHEART_CHARS/AnthroHeart_Characters/01_Divine_Anthro.png"
+    },
+    {
+      "page_number": 9,
+      "eyebrow": "CULTURAL IMPACT",
+      "title": "Resonating with Global Audiences",
+      "subtitle": "Universal themes of love and redemption",
+      "body_paragraphs": [
+        "AnthroHeart speaks to universal experiences of love, redemption, and self-discovery, making it a culturally significant franchise that resonates across demographics and geographies."
+      ],
+      "bullet_points": [
+        "Themes that transcend cultural boundaries",
+        "Stories that inspire and uplift",
+        "A franchise that fosters meaningful conversations"
+      ],
+      "stat_callout": {
+        "value": "61/100",
+        "label": "Master Tempter's Role"
+      },
+      "image_path": "images/ALL_ANTHROHEART_CHARS/AnthroHeart_Characters/16_Master_Tempter_as_Lover_(Redeemed_Shadow).png"
+    },
+    {
+      "page_number": 10,
+      "eyebrow": "EMOTIONAL DEPTH",
+      "title": "Crafting Emotional Connections",
+      "subtitle": "The heart of storytelling",
+      "body_paragraphs": [
+        "Through our characters' journeys, we evoke a spectrum of emotions that resonate deeply with audiences, creating lasting connections that extend beyond the screen."
+      ],
+      "bullet_points": [
+        "Stories of hope, love, and transformation",
+        "Characters that embody relatable struggles",
+        "Emotional storytelling that engages and inspires"
+      ],
+      "stat_callout": {
+        "value": "96",
+        "label": "Anthro Angel's Impact"
+      },
+      "image_path": "images/ALL_ANTHROHEART_CHARS/AnthroHeart_Characters/04_Cio_as_Founder.png"
+    },
+    {
+      "page_number": 11,
+      "eyebrow": "FUTURE VISION",
+      "title": "Imagining the Future of AnthroHeart",
+      "subtitle": "Innovating for new generations",
+      "body_paragraphs": [
+        "As we look to the future, AnthroHeart aims to evolve by incorporating new technologies and storytelling methods that will engage upcoming generations while honoring the core themes of the franchise."
+      ],
+      "bullet_points": [
+        "Continuous innovation in storytelling",
+        "Expanding our interactive and digital presence",
+        "Cultivating a new generation of fans"
+      ],
+      "stat_callout": {
+        "value": "14",
+        "label": "Key Characters"
+      },
+      "image_path": "images/Aumaroo/Aumaroo_Alpha_King.jpg"
+    },
+    {
+      "page_number": 12,
+      "eyebrow": "CALL TO ACTION",
+      "title": "Join Us in the Journey",
+      "subtitle": "Be part of the AnthroHeart legacy",
+      "body_paragraphs": [
+        "We invite you to partner with us in bringing AnthroHeart to life across the globe. Together, we can create a legacy that inspires love and connection for generations to come."
+      ],
+      "bullet_points": [
+        "Invest in a transformative franchise",
+        "Collaborate to innovate and expand",
+        "Join us in making a lasting impact"
+      ],
+      "stat_callout": {
+        "value": "100%",
+        "label": "Commitment to Quality"
+      },
+      "image_path": "images/Aumaroo/Ra-Aumaroo.jpg"
+    },
+    {
+      "page_number": 13,
+      "eyebrow": "FINAL THOUGHTS",
+      "title": "The Heart of AnthroHeart",
+      "subtitle": "Where love creates infinite possibilities",
+      "body_paragraphs": [
+        "In the world of AnthroHeart, love is not just a theme\u2014it's the very essence of existence. Join us as we explore boundless creativity and connect with audiences on a profound level."
+      ],
+      "bullet_points": [
+        "A universe where every story matters",
+        "Engagement through shared experiences",
+        "A journey of love and discovery for all ages"
+      ],
+      "stat_callout": {
+        "value": "Infinite",
+        "label": "Possibilities"
+      },
+      "image_path": "images/Anthroness Rest Origin Album/Through Fur and Forever.wav.jpg"
+    },
+    {
+      "page_number": 14,
+      "eyebrow": "CLOSING SLIDE",
+      "title": "Thank You",
+      "subtitle": "For believing in love's infinite journey",
+      "body_paragraphs": [
+        "Together, let's embark on the adventure of a lifetime through AnthroHeart. We appreciate your time and consideration in creating a world where love transcends all boundaries."
+      ],
+      "bullet_points": [
+        "Let's make magic together",
+        "A future filled with love awaits",
+        "Your partnership is key to our success"
+      ],
+      "stat_callout": {
+        "value": "Infinite",
+        "label": "Love's Journey"
+      },
+      "image_path": "images/Aumaroo/DivineAnthro1.jpg"
+    }
+  ]
+}
