@@ -1,0 +1,12 @@
+{
+  "target": "knoll_720p_video.mp4",
+  "signer": "Anthro Entertainment LLC",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "sha256": "fecc245bd0fc0235584ca21697c4e791ee87c7b75f4c7ce3a1ff952aaec559c9",
+  "sha512": "15061892d593c96477639598e0a1b7846475bb607e045fdbe6af6fc84deede2adabdfa13774ee613508c709ff30c0eaa5924dd815b68842c8ba6f582b2688c1e",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "ac6b29288c60d81d339b27234aada4b49a6fbde93fd652ff0419df014f7453282fee54bd50a8d9a24266e8af62b82e22054e4ed1102d338350b3fb133903430d",
+  "created_utc": "2026-09-28T01:25:49.356669+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

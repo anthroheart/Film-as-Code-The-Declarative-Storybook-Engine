@@ -1,0 +1,12 @@
+{
+  "target": "geiss_enhanced_studio.py",
+  "signer": "Anthro Entertainment LLC",
+  "license": "MIT License (Open Source Software)",
+  "sha256": "59dc78c31d77a5975113cd2c6c847847aa95580a1d2ae0e08bf959ebc82332d9",
+  "sha512": "ca8d4a305c07579de25f84a6bbaec7ad785a1cfe6af91122d9f6450e8995146de026ddcf7824db1060da4d74bab4307db359b268279840f06bfcbb7ffad97d11",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "badf56ac71725a71086b560876ef2a76558887009f72a89b7826d15d9b9ed4d6cc4f17d78f895f1cbbcf8e91e7d7fe20c038a81a9c33550320dc33bf62f0a301",
+  "created_utc": "2026-09-28T01:25:47.476219+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

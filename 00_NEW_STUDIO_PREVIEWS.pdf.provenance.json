@@ -1,0 +1,12 @@
+{
+  "target": "00_NEW_STUDIO_PREVIEWS.pdf",
+  "signer": "Anthro Entertainment LLC",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "sha256": "8f5c167ac96b8ddb280ecb596c026fbc073f9de59820b45f4c4e4411435e885c",
+  "sha512": "8da3fe248d2311ca45ef8da298d792f71fb961f11f263e9b27fa46e64d9fb2e1c53f92dc12d4aade78a2a86ed3d9d28af1a6b707e6d03c2bcafc4cd218d1b285",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "1920de17b9f1a35caedb90be74d4d2907cce7fcc92214f745b3d8422acea81236f66a5c7c6c308da2522962b6e86f13e01981ce4d65e0bb875c1532ed8481a0d",
+  "created_utc": "2026-09-28T01:25:31.873703+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

@@ -1,0 +1,12 @@
+{
+  "target": "anchor_storybook.py",
+  "signer": "Anthro Entertainment LLC",
+  "license": "MIT License (Open Source Software)",
+  "sha256": "68791ce0ab63c4692837268d811b41d11353e1b7396ab15ec0ba5f4601a92835",
+  "sha512": "ec03ee1186b372835128f2970493603586a12e7975a931f93cd2f8515ef8fdf02433dd6d2a492f731fae80eb0f3e24acb3fd4e4909d4cd7a4f19c6c37a0acd0c",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "d793ebf51bf8185625e7bbd25043c81306df0d27b7a0e925fa4e88920804b4af5939b861b1f6c8c32abe81b6acc1f6ea23e3b729e51cb84a0f875b2595ee620a",
+  "created_utc": "2026-09-28T01:25:43.455414+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

@@ -1,0 +1,12 @@
+{
+  "target": "LICENSE.md",
+  "signer": "Anthro Entertainment LLC",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "sha256": "5f23f8ecd754a7a5ed2e42d5a091d87437bc9dc9d41542c227f3930c2cc81c4d",
+  "sha512": "e6e011e4ab7e25b3e168d02fd26db3fbc4e13a3988ccab46f75917192f93c7ab0bcd4bf1ee4acefd4c0fb2492513422c62d0204bef70fb042de1bc0eedc70621",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "8b70492f0dab3eb64ebf1b7227e4d9ed1d001fa9cec1946c8633609aa39e869a4f11462653f043ec291f894884a5d9700662407b7681070ed052b1c882d9870a",
+  "created_utc": "2026-09-28T01:25:37.287349+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

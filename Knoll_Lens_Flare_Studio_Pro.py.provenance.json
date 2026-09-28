@@ -1,0 +1,12 @@
+{
+  "target": "Knoll_Lens_Flare_Studio_Pro.py",
+  "signer": "Anthro Entertainment LLC",
+  "license": "MIT License (Open Source Software)",
+  "sha256": "d26cce1e8be16e4ccaf1d8a5f4b6467da7ae3be4a5e67ca692babe741bbd51e5",
+  "sha512": "836ec3cd832f0151e987d17cb26531bf05ecc18184b0641263eba0528d3b0542a35cb0f13bffc4cc0cd61d2328d738902e13066825e6e2a36f8a082aae2e7ae3",
+  "provenance_note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+  "ed25519_signature": "ea16baaaefb70f1adaaa268efeb79f396cfc624491278ba632004844cfec4d25d8377b781a4f9112006f7d4547b501724a9a83bac1dcf0ba12fba9959babf10e",
+  "created_utc": "2026-09-28T01:25:35.467131+00:00",
+  "bitcoin_tip_at_creation": 968914,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}

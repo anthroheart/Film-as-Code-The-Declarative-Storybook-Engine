@@ -1,0 +1,102 @@
+[
+  {
+    "filename": "00_NEW_STUDIO_PREVIEWS.pdf",
+    "path": "00_NEW_STUDIO_PREVIEWS.pdf",
+    "signer": "Anthro Entertainment LLC",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "sha256": "8f5c167ac96b8ddb280ecb596c026fbc073f9de59820b45f4c4e4411435e885c",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:33.466724+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "01_FINAL_SHOWCASE_1080p.mp4",
+    "path": "01_FINAL_SHOWCASE_1080p.mp4",
+    "signer": "Anthro Entertainment LLC",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "sha256": "df803093024ec601e4e99d5304b3536a43da7eb946f23bc0b83c161e25a3b9cd",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:35.466496+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "Knoll_Lens_Flare_Studio_Pro.py",
+    "path": "Knoll_Lens_Flare_Studio_Pro.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "d26cce1e8be16e4ccaf1d8a5f4b6467da7ae3be4a5e67ca692babe741bbd51e5",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:37.286671+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "LICENSE.md",
+    "path": "LICENSE.md",
+    "signer": "Anthro Entertainment LLC",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "sha256": "5f23f8ecd754a7a5ed2e42d5a091d87437bc9dc9d41542c227f3930c2cc81c4d",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:42.098782+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "Storybook_Studio.py",
+    "path": "Storybook_Studio.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "c4575c43926a3cc835e785a899ba9c5749b61831e8942053aa3d3f6e15939033",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:43.454557+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "anchor_storybook.py",
+    "path": "anchor_storybook.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "68791ce0ab63c4692837268d811b41d11353e1b7396ab15ec0ba5f4601a92835",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:45.337251+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "geiss_720p_video.mp4",
+    "path": "geiss_720p_video.mp4",
+    "signer": "Anthro Entertainment LLC",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "sha256": "a6fd04439a21d6c329c71f50c81289e99868a256ca4df4528148b416844456e2",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:47.475500+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "geiss_enhanced_studio.py",
+    "path": "geiss_enhanced_studio.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "59dc78c31d77a5975113cd2c6c847847aa95580a1d2ae0e08bf959ebc82332d9",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:49.344494+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "knoll_720p_video.mp4",
+    "path": "knoll_720p_video.mp4",
+    "signer": "Anthro Entertainment LLC",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "sha256": "fecc245bd0fc0235584ca21697c4e791ee87c7b75f4c7ce3a1ff952aaec559c9",
+    "note": "AnthroHeart Storybook Project Additions Genesis, Anthro Entertainment LLC",
+    "timestamp": "2026-09-28T01:25:51.020100+00:00",
+    "bitcoin_block": null
+  },
+  {
+    "filename": "geiss_enhanced_studio_v2.py",
+    "path": "geiss_enhanced_studio_v2.py",
+    "signer": "Anthro Entertainment LLC",
+    "license": "MIT License (Open Source Software)",
+    "sha256": "d49ff9f4f97941fac418fb17bc978dcf1f6dd2ef6fbbd40e6a49465f9310ef8d",
+    "note": "Single Asset Genesis Anchor",
+    "timestamp": "2026-09-28T03:05:04.532155+00:00",
+    "bitcoin_block": null
+  }
+]
