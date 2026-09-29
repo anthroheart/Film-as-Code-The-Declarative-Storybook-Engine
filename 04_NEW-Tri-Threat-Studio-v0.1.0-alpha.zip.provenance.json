@@ -1,0 +1,12 @@
+{
+  "target": "04_NEW-Tri-Threat-Studio-v0.1.0-alpha.zip",
+  "signer": "Anthro Entertainment LLC",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "sha256": "18672df8b858d89fdba5322f2f141c9456e5192b77df0e32423ac03bcbdadc8d",
+  "sha512": "22db0bccdd0cec3beb040cf5738b6e504e83c3fe483908c2b8e643b4318595ccbeccfc30c276d8c407485dce1a0ba9dc1ccd01b2efbf658827491ba1da59bfe4",
+  "provenance_note": "Single Asset Genesis Anchor",
+  "ed25519_signature": "3d165569f5c2602e32b6c8e8df8d4751d5f4188c9c2781c7f25d01439fedde375f408cec980a9932d12dd9f870f1aa3b6dec3d1d737145d7963e84f9a586b70e",
+  "created_utc": "2026-09-29T18:14:57.166478+00:00",
+  "bitcoin_tip_at_creation": 969188,
+  "status": "Genesis Record Created (Pending Confirmation)"
+}
